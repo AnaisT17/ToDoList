@@ -5,13 +5,8 @@ const button = document.getElementById('enter');
 const ul = document.querySelector ('ul');
 const li = document.createElement('li');
 
-function inputlenght () {
-    return input.value= "";
-}
-
-function addListAfterClick () {
-    if (inputlenght () > 0){
-        createElement ();
-    }
-}
+function inputLength () {
+    if const str > 0 ;
+    var n = str.length;
+    document.getElementById("userinput").innerHTML = n;
 
