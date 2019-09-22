@@ -9,7 +9,6 @@ styl();
 
 function styl(){
 document.body.style.fontFamily = "Cedarville Cursive";
-document.body.style.fontFamily h1 = "Plaster";
 }
 
 function inputValueLength() {
@@ -30,7 +29,29 @@ function listToUl() {
 
 function createLi() {
     li = document.createElement("li");
-    li.textContent = "Ce que je récupère dans mon formulaire";
+    li.textContent = "récupération formulaire";
+    function createRemovesButton() {
+        let removesButton = document.createElement("delete");
+        let removesButtonIcon = document.createTextNode("\u00D7");
+        removesButton.className = "removes";
+        removesButton.append(removesButtonIcon);
+        li.append(removesButton);
+}
+
+function deleteLi() {
+    let del = document.getElementsByClassName("supp");
+    let text
+    for ( let i = 0; i < del.length; i++) {
+        del[i].onclick = function () {
+        text = this.parentElement;
+        text.remove();
+         }
+    }
+ }
+
+function recallFunRemovesButton() {
+    createRemovesButton();
+    removesLi();
 }
 
 function CapitalizeText() {
