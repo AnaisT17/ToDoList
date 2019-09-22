@@ -11,7 +11,7 @@ body .list h1 {
   text-shadow: 2px 2px white;
 }
 
-body section h1{
+body h1{
   font-family: 'Ruluko', sans-serif;
   color: #111;
   text-align: center;
@@ -57,4 +57,5 @@ body .List ul{
 
 #userinput {
   font-family: 'Cedarville Cursive', cursive; 
+  font-size: 1.6rem;
 }
