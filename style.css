@@ -22,27 +22,29 @@ li {
   color: #fff;
   font-family: 'Cedarville Cursive', cursive; 
   font-size: 25px;
+  justify-items: center;
+  align-items: center;
 }
 
-body .List form{
+body .List {
   height: 5rem;
   margin-top: 15rem;
   display: flex;
-  justify-content: right;
-  align-content: right;
+  justify-content: center;
+  align-content: center;
 }
 
 body .List input{
     margin: 1.5rem;
+    padding: 1.5rem;
     width: 25rem;
 }
 
-body .List ul{
+body .List ul {
   margin-top: 50px;
-  text-align: right;
+  align-items: center;
   font-size: 3rem;
-  font-weight: bold;
-  text-shadow: 2px 2px white;
+  text-shadow: 1px 1px white;
    
 }
 
@@ -59,4 +61,5 @@ body .List ul{
 #userinput {
   font-family: 'Cedarville Cursive', cursive; 
   font-size: 1.6rem;
+  text-align: left;
 }
