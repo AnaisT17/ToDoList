@@ -1,0 +1,27 @@
+body{
+  background-image: url(./travel.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.list{
+  display: flex;
+  justify-content: right;
+  font-family: 'Cedarville Cursive', cursive; 
+  color: #111;
+}
+
+h1{
+  font-family: 'Plaster', cursive;
+  font-size: 100px;
+  font-weight: 1000;
+  line-height: 80px;
+  color: #111;
+  text-align: center;
+  font-weight: 1000;
+  text-shadow: 2px 2px 8px #fff;
+}
+
+li {
+  color: #111;
+}
