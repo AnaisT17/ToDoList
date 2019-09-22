@@ -29,14 +29,9 @@ function listToUl() {
 
 function createLi() {
     li = document.createElement("li");
-    li.textContent = "récupération formulaire";
-    function createRemovesButton() {
-        let removesButton = document.createElement("delete");
-        let removesButtonIcon = document.createTextNode("\u00D7");
-        removesButton.className = "removes";
-        removesButton.append(removesButtonIcon);
-        li.append(removesButton);
+    li.textContent ="";
 }
+
 
 function deleteLi() {
     let del = document.getElementsByClassName("supp");
